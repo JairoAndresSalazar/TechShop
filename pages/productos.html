@@ -1,143 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechShop|Productos</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     <script src="https://kit.fontawesome.com/9f11c97aba.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <section class="section-nav">
-                <div class="logo-nav">
-                    <a href="../index.html" class="letter-titlenav"><img src="../assets/img/techshop.png" alt="techshop-logo" class="img-logo">TechShop Store</a>
+        <nav class="navbar navbar-expand-lg bg-nav">
+            <div class="container-fluid ">
+                <div class="nav-logo-tittle d-flex justify-content-center align-items-center ms-4">
+                    <img src="../assets/img/techshop.png" alt="techshop-logo" class="img-logo"><a
+                        class="navbar-brand text-center tittle-size text-light" href="#">TechShop Store</a>
                 </div>
-                <div class="menu-nav">
-                <a href="../index.html" class="letters-nav">Inicio</a>
-                <a href="./nosotros.html" class="letters-nav">Nosotros</a>
-                <a href="./productos.html" class="letters-nav">Productos</a>
-                <a href="./faq.html" class="letters-nav">FAQ</a>
-                <a href="./contacto.html" class="letters-nav">Contacto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav o mb-2 mb-lg-0 me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-4 text-light" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="nosotros.html">Nosotros</a></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="faq.html">FAQ</a></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
                 </div>
-            </section>
+            </div>
         </nav>
     </header>
 
     <main>
         <section>
-            <div class="titulo-productos">
+            <div class="titulo-productos text-center">
                 <h1>TechShop: Descubre nuestra selección de productos de vanguardia</h1>
             </div>
-            
-            <div class="section-cards">
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/IPHONE-14-pro-max-colores-1.png" alt="iphone-14promax" class="img-cards">
+
+            <div class="section-cards cards-productos">
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <img src="../assets/img/IPHONE-14-pro-max-colores-1.png" class="card-img-top p-4"
+                            alt="iphone-14promax">
+                        <div class="card-body mt-2">
+                            <h5 class="card-title text-center">iPhone 14 Pro Max</h5>
+                            <p class="card-text text-start">El iPhone 14 Pro Max: rendimiento potente, cámara avanzada y
+                                diseño
+                                elegante.
+                            </p>
                         </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">iPhone 14 Pro Max</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>El iPhone 14 Pro Max: rendimiento potente, cámara avanzada y diseño elegante.</p>
                     </div>
-                </div>
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/nvidia-geforce-rtx-3090-ti-founders-edition-01.webp" alt="rtx3090" class="img-cards">
+                </a>
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <img src="../assets/img/nvidia-geforce-rtx-3090-ti-founders-edition-01.webp" class="card-img-top p-4"
+                            alt="rtx3090">
+                        <div class="card-body  mt-2">
+                            <h5 class="card-title text-center">Nvidia RTX 3090 FE</h5>
+                            <p class="card-text">La RTX 3090 Founder Edition de NVIDIA es la tarjeta gráfica definitiva
+                                para
+                                los
+                                entusiastas de
+                                los juegos y creadores de contenido.
+                            </p>
                         </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">Nvidia RTX 3090 FE</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>La RTX 3090 Founder Edition de NVIDIA es la tarjeta gráfica definitiva para los entusiastas de los juegos y creadores de contenido.</p>
                     </div>
-                </div>
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/mac-pro-2023.png" alt="macpro" class="img-cards">
+                </a>
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <img src="../assets/img/mac-pro-2023.png" class="card-img-top p-4" alt="macpro">
+                        <div class="card-body  mt-2">
+                            <h5 class="card-title text-center">Mac Pro 2023</h5>
+                            <p class="card-text">La nueva Mac Pro 2023 es la última incorporación a la línea de
+                                productos de
+                                Apple, diseñada
+                                específicamente para profesionales y creadores de contenido.
+                            </p>
                         </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">Mac Pro 2023</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>La nueva Mac Pro 2023 es la última incorporación a la línea de productos de Apple, diseñada específicamente para profesionales y creadores de contenido.</p>
                     </div>
-                </div>
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/15.png" alt="monitoraorus" class="img-cards">
+                </a>
+
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <img src="../assets/img/15.png" class="card-img-top p-4" alt="monitoraorus">
+                        <div class="card-body  mt-2">
+                            <h5 class="card-title text-center">Monitor Aorus AD27QD</h5>
+                            <p class="card-text">El monitor AORUS AD27QD: una experiencia visual envolvente con
+                                resolución QHD, frecuencia de actualización de 144Hz y soporte para AMD FreeSync
+                            </p>
                         </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">Monitor Aorus AD27QD</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>
-                            El monitor AORUS AD27QD: una experiencia visual envolvente con resolución QHD, frecuencia de actualización de 144Hz y soporte para AMD FreeSync</p>
                     </div>
-                </div>
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/image_757.png" alt="mouseg502" class="img-cards">
+                </a>
+
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <img src="../assets/img/image_757.png" class="card-img-top" alt="mouseg502">
+                        <div class="card-body  mt-2">
+                            <h5 class="card-title text-center">Logitech G502 Hero</h5>
+                            <p class="card-text">El mouse G502 Hero: precisión superior y personalización avanzada para
+                                una experiencia de juego inigualable.
+                            </p>
                         </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">Logitech G502 Hero</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>El mouse G502 Hero: precisión superior y personalización avanzada para una experiencia de juego inigualable.</p>
                     </div>
-                </div>
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/ps5.webp" alt="ps5" class="img-cards">
+                </a>
+
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <img src="../assets/img/ps5.png" class="card-img-top p-4" alt="ps5">
+                        <div class="card-body  mt-2">
+                            <h5 class="card-title text-center">Sony PlayStation 5</h5>
+                            <p class="card-text">La consola PS5: potencia de última generación y una experiencia de
+                                juego inmersiva que redefine los límites de la diversión.
+                            </p>
                         </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">Sony PlayStation 5</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>La consola PS5: potencia de última generación y una experiencia de juego inmersiva que redefine los límites de la diversión.</p>
                     </div>
-                </div>
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/deck.webp" alt="steamdeck" class="img-cards">
-                        </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">Steam Deck 256GB</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>La Steam Deck: una consola portátil revolucionaria que combina la biblioteca de Steam con la libertad de jugar en cualquier lugar.</p>
+                </a>
+
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <div>
+                        <img src="../assets/img/steamdeck.png" class="card-img-top" alt="steamdeck">
                     </div>
-                </div>
-                <div class="cards">
-                    <a href="#" class="link-cards">
-                        <div class="card-center">
-                            <img src="../assets/img/airpods.png" alt="airpodspro" class="img-cards">
+                        <div class="card-body  mt-2">
+                            <h5 class="card-title text-center">Steam Deck 256GB</h5>
+                            <p class="card-text">La Steam Deck: una consola portátil revolucionaria que combina la
+                                biblioteca de Steam con la libertad de jugar en cualquier lugar.
+                            </p>
                         </div>
-                        <div class="card-center">
-                            <h2 class="titulo-cards">Airpods Pro 2</h2>
-                        </div>
-                    </a>
-                    <div class="card-center">
-                        <p>Los AirPods Pro 2: auriculares inalámbricos con cancelación de ruido avanzada y calidad de sonido excepcional para una experiencia auditiva envolvente.</p>
                     </div>
-                </div>
-        </div>
+                </a>
+
+                <a href="#" class="link-card">
+                    <div class="card">
+                        <img src="../assets/img/airpods.png" class="card-img-top p-4" alt="airpodspro">
+                        <div class="card-body  mt-2">
+                            <h5 class="card-title text-center">Airpods Pro 2</h5>
+                            <p class="card-text">Los AirPods Pro 2: auriculares inalámbricos con cancelación de ruido
+                                avanzada y calidad de sonido excepcional para una experiencia auditiva envolvente.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+
+
+            </div>
         </section>
     </main>
 
@@ -149,6 +174,10 @@
             <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
         </section>
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

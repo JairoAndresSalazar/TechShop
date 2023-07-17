@@ -28,12 +28,16 @@ margin: 2rem 0rem;
     width: 30rem;
 }
 
+.carousel-item img{
+    object-fit: contain;
+}
+
 .img-logo{
     width: 5rem;
 }
 
 .img-cards{
-    width: 10rem;
+    width: 100%;
     height: 10rem;
     object-fit: contain;
 }
@@ -48,10 +52,9 @@ margin: 2rem 0rem;
     color: #f4f4f4; 
 }
 
-.cards {
-    border: .125rem solid black;
-    width: 20%;
-    height: 20rem;
+.section-cards .link-card .card{
+    width: 18rem;
+    height: 500px;
 }
 
 .img-nosotros{
@@ -126,6 +129,14 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.cards-productos{
+    gap: 32px;
+    margin: 2rem 12rem;
+}
+
+.section-cards a{
+    text-decoration: none;
+}
 
 .titulo-productos{
     display: flex;
@@ -138,6 +149,22 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.card-text p{
+    width: 100%;
+}
+
+.container-nosotros{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-nosotros p{
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
 
 /* CONTACTO */
 
@@ -162,4 +189,44 @@ label{
 
 .boton-contacto{
     margin: 1rem;
+}
+
+
+@media screen and (max-width:320px) {
+    
+    .slider-index{
+          width: 300px;
+    }
+    .section-cards .link-card .card{
+        width: 12rem;
+    }
+    .nav-logo-tittle .tittle-size{
+        font-size: .8rem;
+    }
+    .img-logo{
+        width: 3rem;
+    }
+    .cards-productos{
+        margin: auto;
+    }
+    footer{
+        margin-top: 2rem;
+    }
+
+    .container-nosotros img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:699px) {
+
+    .slider-index{
+        width: fit-content;
+  }
+  .nav-logo-tittle .tittle-size{
+    font-size: 1.2rem;
+}
+.img-logo{
+    width: 3.3rem;
+}
 }

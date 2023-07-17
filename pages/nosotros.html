@@ -1,38 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechShop|Nosotros</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9f11c97aba.js" crossorigin="anonymous"></script>
 </head>
-<body>
+
+<body class="body-nosotros">
     <header>
-        <nav class="navbar">
-            <section class="section-nav">
-                <div class="logo-nav">
-                    <a href="../index.html" class="letter-titlenav"><img src="../assets/img/techshop.png" alt="techshop-logo" class="img-logo">TechShop Store</a>
+        <nav class="navbar navbar-expand-lg bg-nav">
+            <div class="container-fluid ">
+                <div class="nav-logo-tittle d-flex justify-content-center align-items-center ms-4">
+                    <img src="../assets/img/techshop.png" alt="techshop-logo" class="img-logo"><a
+                        class="navbar-brand text-center tittle-size text-light" href="#">TechShop Store</a>
                 </div>
-                <div class="menu-nav">
-                <a href="../index.html" class="letters-nav">Inicio</a>
-                <a href="./nosotros.html" class="letters-nav">Nosotros</a>
-                <a href="./productos.html" class="letters-nav">Productos</a>
-                <a href="./faq.html" class="letters-nav">FAQ</a>
-                <a href="./contacto.html" class="letters-nav">Contacto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav o mb-2 mb-lg-0 me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-4 text-light" aria-current="page"
+                                href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="#">Nosotros</a></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="faq.html">FAQ</a></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-light" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
                 </div>
-            </section>
+            </div>
         </nav>
     </header>
     <main>
-        <h1 class="nosotros-titulo">ACERCA DE NOSOTROS</h1>
-        <img src="../assets/img/acerca-de-nosotros-PhotoRoom-1.png" alt="acerca-de-nosotros" class="img-nosotros">
-        <p class="texto-nosotros">Bienvenidos a TechShop, tu destino confiable para encontrar los mejores productos y soluciones tecnológicas. 
-        Nos enorgullece ofrecer una amplia selección de dispositivos de última generación, incluyendo smartphones, ordenadores, 
-        accesorios y mucho más. Nuestro objetivo es brindarte una experiencia de compra satisfactoria, respaldada por un excelente 
-        servicio al cliente y envío rápido. ¡Explora nuestra tienda en línea hoy mismo y descubre cómo podemos ayudarte a satisfacer 
-        tus necesidades tecnológicas!</p>
-
+        <div class="container text-center">
+            <h1 class="nosotros-titulo">ACERCA DE NOSOTROS</h1>
+        </div>
+        <div class="container container-nosotros">
+            <img src="../assets/img/acerca-de-nosotros-PhotoRoom-1.png" alt="acerca-de-nosotros" class="img-nosotros">
+            <p class="texto-nosotros">En TechShop, somos una tienda en línea dedicada a brindarte lo mejor de la
+                tecnología. Nuestro objetivo es ofrecerte una experiencia de compra sin complicaciones y garantizarte
+                productos de calidad que se adapten a tus necesidades tecnológicas.</p>
+            <p>
+            Nos enorgullece contar con un amplio catálogo de productos cuidadosamente seleccionados, desde
+            smartphones y laptops hasta dispositivos inteligentes y accesorios de última generación. Trabajamos con
+            marcas reconocidas y confiables para asegurarnos de que encuentres los productos más innovadores y de
+            alta calidad en nuestro e-commerce.
+            <p>
+                En TechShop, nos preocupamos por tu satisfacción. Por eso, ponemos a tu disposición un equipo de
+                atención al cliente amable y profesional que está listo para ayudarte en todo momento. Ya sea que tengas
+                dudas sobre un producto, necesites asesoramiento o requieras asistencia posventa, estamos aquí para
+                brindarte el mejor servicio.
+            </p>
+            <p>
+                Además, nos esforzamos por garantizar una experiencia de compra segura y rápida. Trabajamos con sistemas
+                de pago confiables y ofrecemos opciones de envío ágiles para que recibas tus productos en tiempo y
+                forma.
+            </p>
+            <p>
+                En resumen, en TechShop nos apasiona la tecnología y queremos compartir esa pasión contigo. Estamos
+                comprometidos en brindarte productos de calidad, un servicio excepcional y una experiencia de compra
+                satisfactoria. ¡Explora nuestro catálogo y descubre lo último en tecnología en TechShop!</p>
+        </div>
 
     </main>
     <footer>
@@ -43,5 +88,9 @@
             <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
