@@ -18,6 +18,11 @@ font-size: 1.5rem;
 margin: 2rem 0rem;
 }
 
+.letra-T, .letra-S{
+    color: red;
+    font-weight: bold;
+}
+
 .img-slider-container{
     width: 100%;
     display: flex;
