@@ -1,0 +1,20 @@
+@media screen and (max-width:500px) {
+    header{
+        .navbar{
+            .container-fluid{
+                justify-content: center;
+            }
+        }
+    }
+    
+    
+    .carousel{
+        width: 300px;
+    }
+
+    .container-form{
+        .form-contacto{
+            width: 300px;
+        }
+    }
+}

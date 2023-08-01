@@ -1,82 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TS Store|Contacto</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/9f11c97aba.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Venta de artículos de electrónica e importación de las mejores marcas en el mismo lugar" />
+    <meta
+      name="keywords"
+      content="Tecnologia, importacion, iphone, nvidia, rtx, samssung, apple" />
+    <meta name="author" content="Jairo Salazar Elles" />
+    <meta name="copyright" content="Jairo Salazar Elles" />
+    <meta property="og:title" content="TechShop" />
+    <meta property="og:site_name" content="TechShop" />
+    <meta property="og:url" content="techshop.netlify.app" />
+    <meta
+      property="og:description"
+      content="Venta de artículos de electrónica e importación de las mejores marcas" />
+    <meta property="og:type" content="product.item" />
+    <title>Contacto | TS Store</title>
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <script
+      src="https://kit.fontawesome.com/9f11c97aba.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-nav">
-            <div class="container-fluid ">
-                <div class="nav-logo-tittle d-flex justify-content-center align-items-center ms-4">
-                    <img src="../assets/img/techshop.png" alt="techshop-logo" class="img-logo"><a
-                        class="navbar-brand text-center tittle-size text-light" href="#">TechShop Store</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav o mb-2 mb-lg-0 me-lg-5">
-                        <li class="nav-item">
-                            <a class="nav-link active fs-4 text-light" aria-current="page"
-                                href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-4 text-light" href="productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-4 text-light" href="nosotros.html">Nosotros</a></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-4 text-light" href="faq.html">FAQ</a></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-4 text-light" href="#">Contacto</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container-fluid">
+          <div
+            class="nav-logo-tittle d-flex justify-content-center align-items-center ms-4">
+            <img
+              src="../static/img/techshop.png"
+              alt="techshop-logo"
+              class="img-logo" /><a
+              class="navbar-brand text-center tittle-size text-light"
+              href="../index.html"
+              ><span class="letra-T">T</span>ech<span class="letra-S">S</span
+              >hop Store</a
+            >
+          </div>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent">
+            <ul class="navbar-nav o mb-2 mb-lg-0 me-lg-5">
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-4 text-light"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 active text-light" href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div>
-            <h1 class="contacto-titulo">Contáctanos</h1>
-        </div>
-        
-        <form class="form-contacto" novalidate>
-            <div class="col-md-4">
+      <div
+        class="d-flex justify-content-center align-items-center text-center mb-5 mt-4">
+        <h1 class="contacto-titulo">Contáctanos</h1>
+      </div>
+
+      <div class="col-12">
+        <div
+          class="container-form d-flex justify-content-center align-items-center">
+          <form class="form-contacto" novalidate action="#">
+            <div class="mb-3">
               <label for="validationCustom01" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="validationCustom01" value="" required>
-              <div class="valid-feedback">
-                Se ve bien!
-              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                value=""
+                required />
+              <div class="valid-feedback">Se ve bien!</div>
             </div>
-            <div class="col-md-4">
-              <label for="validationCustom02" class="form-label">Apellido/s</label>
-              <input type="text" class="form-control" id="validationCustom02" value="" required>
-              <div class="valid-feedback">
-                Se ve bien!
-              </div>
+            <div class="mb-3">
+              <label for="validationCustom02" class="form-label"
+                >Apellido/s</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                value=""
+                required />
+              <div class="valid-feedback">Se ve bien!</div>
             </div>
-            <div class="col-md-6">
+            <div class="mb-3">
               <label for="validationCustom03" class="form-label">Ciudad</label>
-              <input type="text" class="form-control" id="validationCustom03" required>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom03"
+                required />
               <div class="invalid-feedback">
                 Por favor ingresa una ciudad valida.
               </div>
             </div>
-            <div class="col-md-3">
-              <label for="validationCustom04" class="form-label">Provincia</label>
+            <div class="mb-3">
+              <label for="validationCustom04" class="form-label"
+                >Provincia</label
+              >
               <select class="form-select" id="validationCustom04" required>
                 <option selected disabled value="">Elegir...</option>
                 <option>Buenos Aires</option>
@@ -90,53 +151,75 @@
                 Por favor seleccione una provincia valida.
               </div>
             </div>
-            <div class="col-md-3">
-              <label for="validationCustom05" class="form-label">Codigo Postal</label>
-              <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="mb-3">
+              <label for="validationCustom05" class="form-label"
+                >Codigo Postal</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom05"
+                required />
               <div class="invalid-feedback">
                 Por favor ingrese un codigo postal valido.
               </div>
             </div>
-            <div class="col-md-4">
-              <label for="validationCustomUsername" class="form-label">Mensaje</label>
+            <div class="mb-3">
+              <label for="validationCustomUsername" class="form-label"
+                >Mensaje</label
+              >
               <div class="input-group has-validation">
-                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustomUsername"
+                  aria-describedby="inputGroupPrepend"
+                  required />
                 <div class="invalid-feedback">
                   Escriba su mensaje por favor.
                 </div>
               </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 mb-4">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required />
                 <label class="form-check-label" for="invalidCheck">
                   Acepto los terminos y condiciones.
                 </label>
                 <div class="invalid-feedback">
-                  Por favor acepta los terminos y condiciones antes de continuar.
+                  Por favor acepta los terminos y condiciones antes de
+                  continuar.
                 </div>
               </div>
             </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Enviar consulta</button>
+            <div class="col-12 mb-4 d-flex justify-content-center">
+              <button class="btn btn-primary" type="submit">
+                Enviar consulta
+              </button>
             </div>
           </form>
-        
+        </div>
+      </div>
     </main>
 
     <footer>
+      <div class="footer-container">
         <section class="footer-icons">
-            <a href=""><i class="fa-brands fa-discord fa-xl"></i></a>
-            <a href=""><i class="fa-brands fa-square-instagram fa-xl"></i></a>
-            <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
-            <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
-            
+          <a href=""><i class="fa-brands fa-discord fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
         </section>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
-
-

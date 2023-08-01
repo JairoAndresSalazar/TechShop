@@ -1,0 +1,37 @@
+.titulo-index{
+    display: flex;
+justify-content: center;
+font-size: 1.5rem;
+margin: 2rem 0rem;
+}
+
+.slider-index{
+    width: 700px;
+    .carousel-inner{
+        .carousel-item{
+            img{
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+
+.section-cards{
+    @include flex(row, wrap, center, center);
+
+    gap: 16px;
+    margin: 2rem 1rem;
+    .link-card{
+        text-decoration: none;
+        .card{
+            width: 18rem;
+            height: 500px;
+            .card-body{
+                p{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

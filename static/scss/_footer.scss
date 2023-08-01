@@ -1,0 +1,19 @@
+.footer1{
+    background-color: $color-footer;
+    height: 4rem;
+    width: 100%;
+    
+    .footer-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 24px;
+
+        a{
+            i{
+                color: $color-footer-icons;
+            }
+        }
+    }
+}
