@@ -1,0 +1,75 @@
+.titulo-faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.buscar-faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        width: 500px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    input:focus{
+        outline: 1;
+        border-color: $color-footer-icons;
+    }
+    button{
+        width: 35px;
+        align-content: center;
+        padding: 4px;
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color:$color-footer;
+    }
+    iconify-icon{
+        transition: .8s;
+    }
+    button:hover iconify-icon{
+        transform: scale(1.6);
+        transition: .8s;
+    }
+}
+
+
+.container-acordeon{
+    margin: 3rem 20%;
+.spec__body {
+    .spec__panel {
+      padding: 7px 21px;
+      margin-bottom: 24px;
+      border: 1px solid #777e91;
+      border-radius: 8px;
+
+      .spec__label {
+        padding-block: 7px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.5rem;
+        color: #f4f4f4;
+        cursor: pointer;
+      }
+      .spec__label:hover {
+        color: $color-footer-icons;
+      }
+      ul {
+        li {
+          font-family: "Montserrat", sans-serif;
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .spec__panel:hover {
+      border: 1px solid $color-footer-icons;
+    }
+    .spec__panel:hover .spec__label {
+      color: $color-footer-icons;
+    }
+  }
+}
